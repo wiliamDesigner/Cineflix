@@ -97,14 +97,6 @@ model User {
    ```
 4. Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-## 💡 Possíveis melhorias futuras
-
-- Mover a chave da API do TMDB para uma variável de ambiente (`.env`), em vez de deixá-la fixa no código-fonte
-- Adicionar sessão/autenticação persistente (ex: cookies ou JWT), já que hoje o login não mantém o usuário conectado entre acessos
-- Criar uma página de detalhes para cada filme (o botão "ver mais" ainda não tem ação)
-- Adicionar busca e filtros por gênero na listagem de filmes
-- Implementar recuperação de senha (o link já existe na tela de login, mas ainda não é funcional)
-- Tornar o campo "nome" do cadastro editável pelo usuário (hoje é fixo como "Usuário")
 
 ## 👤 Autor
 
